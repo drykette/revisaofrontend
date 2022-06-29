@@ -1,0 +1,8 @@
+body{
+    background-image: url(background/your.png); 
+    background-size: cover; 
+
+    color: rgb(253, 251, 253);
+
+    text-align: center;
+}
