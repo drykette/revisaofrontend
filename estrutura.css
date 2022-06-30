@@ -1,8 +1,26 @@
-body{
-    background-image: url(background/your.png); 
-    background-size: cover; 
 
-    color: rgb(253, 251, 253);
-
+.titulo{
+    font-family: sans-serif;
+    color:#FFFFFF;
+    margin-left: 30px;
+}
+.subtitulo{
+    font-family: sans-serif;
+    color:#FFFFFF;
+    margin-top: 50px;
     text-align: center;
+}
+.botao{
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+}
+.cat{
+    margin-left: 1px;
+}
+
+body{
+    background-image: url(background/Fundinho.jpg); 
+    background-size: cover;
 }
