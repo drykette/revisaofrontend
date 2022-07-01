@@ -1,11 +1,14 @@
-
+@font-face{
+    font-family: "Comfortaa";
+    src:url('fontes/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
 .titulo{
-    font-family: sans-serif;
+    font-family: "Comfortaa";
     color:#FFFFFF;
     margin-left: 30px;
 }
 .subtitulo{
-    font-family: sans-serif;
+    font-family: "Comfortaa";
     color:#FFFFFF;
     margin-top: 50px;
     text-align: center;
@@ -21,6 +24,34 @@
 }
 
 body{
-    background-image: url(background/Fundinho.jpg); 
+    background-image: url('background/cenario.gif'); 
+    background-repeat: no-repeat;
     background-size: cover;
+    
 }
+.btn {
+    background: #3dd9f5;
+    background-image: -webkit-linear-gradient(top, #3dd9f5, #234a8c);
+    background-image: -moz-linear-gradient(top, #3dd9f5, #234a8c);
+    background-image: -ms-linear-gradient(top, #3dd9f5, #234a8c);
+    background-image: -o-linear-gradient(top, #3dd9f5, #234a8c);
+    background-image: linear-gradient(to bottom, #3dd9f5, #234a8c);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    font-family: "Comfortaa";
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #234a8c;
+    background-image: -webkit-linear-gradient(top, #234a8c, #3dd9f5);
+    background-image: -moz-linear-gradient(top, #234a8c, #3dd9f5);
+    background-image: -ms-linear-gradient(top, #234a8c, #3dd9f5);
+    background-image: -o-linear-gradient(top, #234a8c, #3dd9f5);
+    background-image: linear-gradient(to bottom, #234a8c, #3dd9f5);
+    text-decoration: none;
+  }
