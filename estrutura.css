@@ -4,14 +4,16 @@
 }
 .titulo{
     font-family: "Comfortaa";
-    color:#FFFFFF;
+    color:#000000;
     margin-left: 30px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(221, 121, 176)
 }
 .subtitulo{
     font-family: "Comfortaa";
-    color:#FFFFFF;
+    color:#010e14;
     margin-top: 50px;
     text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgb(221, 121, 176)
 }
 .botao{
     text-align: center;
@@ -24,11 +26,18 @@
 }
 
 body{
-    background-image: url('background/cenario.gif'); 
+    background-image: url('background/1.gif'); 
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: 1600px 800px;
+  
 }
+p.one {
+    outline-style: outset;
+    outline-color: blue;
+    outline-width: thick;
+    background: write;
+}
+
 .btn {
     background: #3dd9f5;
     background-image: -webkit-linear-gradient(top, #3dd9f5, #234a8c);
